@@ -13,46 +13,74 @@
     <h4>Employee Policy</h4>
     <div id="main_div">
         <div id="div_left">
-            <label for="Policy_Code">Policy Code :<input type="text" name="" id="Policy_Code"></label><br>
-            <label for="Policy_Name">Policy_Name :<input type="text" name="" id="Policy_Name"></label><br>
+            <label for="Policy_Code">Policy Code :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name=""
+                    id="Policy_Code"></label><br>
+            <label for="Policy_Name">Policy_Name :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<input type="text" name=""
+                    id="Policy_Name"></label><br>
             <label for="Sal_Deduct">Salary Deduction No Of Days :<input type="text" name="" id="Sal_Deduct"></label><br>
-            <label for="Attend_Deduct">Deduction Attendance :<input type="text" name="" id="Attend_Deduct"></label><br>
-            <label for="Allowance_Deduct">Deduction Time Allowances :<input type="text" name=""
+            <label for="Attend_Deduct">Deduction Attendance :&emsp;&emsp;&emsp;<input type="text" name=""
+                    id="Attend_Deduct"></label><br>
+            <label for="Allowance_Deduct">Deduction Time Allowances :&ensp;<input type="text" name=""
                     id="Allowance_Deduct"></label><br>
-            <label for="M_Off">Monthly Day off :<input type="text" name="" id="M_Off"></label><br>
-            <label for="M_Off_After">Leaves Allow After (Month) :<input type="text" name=""
+            <label for="M_Off">Monthly Day off :&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name=""
+                    id="M_Off"></label><br>
+            <label for="M_Off_After">Leaves Allow After (Month) :&ensp;<input type="text" name=""
                     id="M_Off_After"></label><br>
-            <label for="F_Day_1">Full Off Day 1 :<input type="text" name="" id="F_Day_1"></label><br>
-            <label for="F_Day_2">Full Off Day 2 :<input type="text" name="" id="F_Day_2"></label><br>
-            <label for="Sal_Deduct_late">Salary Deduction Coming Late :<input type="radio" name="Salary Deduction"
+            <label for="F_Day_1">Full Off Day 1 :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name=""
+                    id="F_Day_1"></label><br>
+            <label for="F_Day_2">Full Off Day 2 :&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name=""
+                    id="F_Day_2"></label><br>
+            <label for="Sal_Deduct_late">Salary Deduction Coming Late :<br><input type="radio" name="Salary Deduction"
                     id=" Sal_Deduct_late">No
-                Deduction <br><input type="radio" name="Salary Deduction" id=" Sal_Deduct_late">No
-                Deduction <br><input type="radio" name="Salary Deduction" id=" Sal_Deduct_late">No
+                Deduction <br><input type="radio" name="Salary Deduction" id=" Sal_Deduct_late">Half Day
+                Deduction <br><input type="radio" name="Salary Deduction" id=" Sal_Deduct_late">Full Day
                 Deduction <br></label><br>
         </div>
         <div id="div_right">
             <form action="/action_page.php">
                 <fieldset>
                     <legend>Normal Days</legend>
-                    <label for="fname"><b>Grace Time For Late</b></label>
-                    <input type="time" id="fname" name="fname"><input type="time" id="fname" name="fname"><br><br>
-                    <label for="hDay"><b>Grace Time For Half Day Fall</b></label>
-                    <input type="time" id="fname" name="fname"><input type="time" id="fname" name="fname"><br><br>
-                    <label for="fDay"><b>Grace Time For Full Day Fall</b></label>
-                    <input type="time" id="fname" name="fname"><input type="time" id="fname" name="fname">
+                    <label for="fname"><b>Grace Time For Late&emsp;&ensp;</b></label>
+                    <b>In</b><input type="time" id="fname" name="fname"><b>Out</b><input type="time" id="fname"
+                        name="fname"><br><br>
+                    <label for="hDay"><b>GraceTime Half Day Fall</b></label>
+                    <b>In</b><input type="time" id="hDay" name="fname"><b>Out</b><input type="time" id="hDay"
+                        name="fname"><br><br>
+                    <label for="fDay"><b>GraceTime Full Day Fall</b></label>
+                    <b>In</b><input type="time" id="fDay" name="fname"><b>Out</b><input type="time" id="fDay"
+                        name="fname">
                 </fieldset>
                 <fieldset>
                     <legend>Half Day</legend>
-                    <label for="fname"><b>Grace Time For Late</b></label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                    <label for="hDay"><b>Grace Time For Half Day Fall</b></label>
-                    <input type="text" id="hDay" name="hDay"><br><br>
-                    <label for="fDay"><b>Grace Time For Full Day Fall</b></label>
-                    <input type="text" id="fDay" name="fDay"><br><br>
+                    <label for="fname"><b>Grace Time&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</b></label>
+                    <b>In</b><input type="time" id="fname" name="fname"><b>Out</b><input type="time" id="fname"
+                        name="fname"><br><br>
+                    <label for="hDay"><b>Half Day 1&emsp;&emsp;&emsp;&emsp;&emsp;</b></label>
+                    <select name="" id="Half Day 1">
+                        <option value="abcabcabcabc">abcabcabc</option>
+                        <option value="xyzxyzxyz">xyzxyzxyz</option>
+                        <option value="mnomnomno">mnomnomno</option>
+                    </select><b>W.Hour</b><input type="time" id="fname" name="fname"></label>
+                    <br><label for="hDay"><b>Half Day 2&emsp;&emsp;&emsp;&emsp;&emsp;</b></label>
+                    <select name="" id="Half Day 1">
+                        <option value="abcabcabcabc">abcabcabc</option>
+                        <option value="xyzxyzxyz">xyzxyzxyz</option>
+                        <option value="mnomnomno">mnomnomno</option>
+                    </select><b>W.Hour</b><input type="time" id="fname" name="fname"></label>
+
                 </fieldset>
             </form>
         </div>
     </div>
+
+    <table style="width:100%">
+        <tr>
+            <th id="r1c1" colspan="4">ID</th>
+            <th id="r1call">Policy Name</th>
+
+        </tr>
+
+    </table>
 </body>
 
 </html>

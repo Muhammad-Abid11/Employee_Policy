@@ -22,16 +22,13 @@ h4{
 #div_right{
     background-color: rgb(179, 172, 179);
     width: 35%;
-    height: 10cm;
+    height: 11cm;
 }
-/* .in_space{
-    margin-left: 10vmin;
-} */
-/* Set the background color of body to tan */
-body {
-    background-color: tan;
+table,
+td {
+    border: 1px solid black;
+    border-spacing: 0.5mm;
 }
-
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
