@@ -9,11 +9,11 @@ h4{
     background-color: rgb(3, 32, 95);
 }
 #main_div {
-    background-color: yellow;
+    background-color: rgb(102, 100, 100);
    display: flex;
 }
 #div_left{
-    background-color:beige;
+    background-color:rgb(179, 172, 179);
       width: 30%;
     height: 11cm;
     line-height: 2;
